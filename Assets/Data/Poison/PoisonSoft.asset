@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3369b5e9c513a84bbf59f2099f4fdeb, type: 3}
+  m_Name: PoisonSoft
+  m_EditorClassIdentifier: 
+  Range: 15
+  Duration: 1
+  Color: {r: 0.6226415, g: 0.56386065, b: 0.15566038, a: 1}
+  TransparentColor: {r: 0.62352943, g: 0.5647059, b: 0.15686275, a: 0.3137255}
+  TypePoison: 1
+  DamagePercentage: 50
+  CurrentValue: 3
+  MaxValue: 3
+  onFinishedAnimating: {fileID: 11400000, guid: 397e84201c114ce4793d1844908e5243, type: 2}

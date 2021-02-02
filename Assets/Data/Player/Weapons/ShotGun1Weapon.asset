@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9d58d9c77cea747a6c25eb2b5a8945, type: 3}
+  m_Name: ShotGun1Weapon
+  m_EditorClassIdentifier: 
+  Name: ShotGun 1
+  ColorWeapon: {r: 0, g: 0, b: 0, a: 1}
+  InitWeaponModel: {fileID: 8998436695452580809, guid: 70e3e5c9398889240b094d32ce4f0087, type: 3}
+  CurrentWeaponModel: {fileID: 0}
+  BulletPrefab: {fileID: 3525364692148165291, guid: 1ed66bfd63deaee4391f103671363f39, type: 3}
+  SpeedBullet: 70
+  DamageBullet: 10
+  OverloadTime: 1
+  ShotTime: 0.75
+  CurrentAmmo: 32
+  OneMagazine: 40
